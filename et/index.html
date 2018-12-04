@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>et官网</title>
+        <style type="text/css">
+        *{border: 0;padding: 0;margin: 0;}
+        body{font-family: arial;}
+        a{text-decoration: none;}
+        li{list-style:none;}
+
+
+        header{width:100%;}
+
+        .top{width: 100%;
+             background-color: #000;}
+        .top-inner{width: 996px;
+             margin:0 auto;
+             overflow: hidden;}
+
+
+
+
+        .top .logo{width: 485px;
+                  height: 143px;
+                  float: left;}
+        .top .logo h1{ padding-top: 25px;
+                       width: 458px;
+                       height: 118px;}
+        .top .logo h1 a{ display: block;
+                         width: 458px;
+                         height: 94px;
+                         background-image: url( images/logo.png);
+                         background-repeat: no-repeat;}
+
+
+        nav{width: 511px;
+            float: left;}
+        nav ul{width: 511px;}
+        nav ul li{float: left;
+                  line-height: 143px;
+                  margin-left: 28px;}
+        nav ul li a{ font-size: 14px;
+                     color:#7f7f7f;}
+        nav ul li a:hover{color:#cb2700;}
+
+
+
+        .banner{width: 100%;
+                height: 348px;
+                background-image: url( images/123123.jpg);
+                background-repeat: repeat-x;
+                }
+        .banner .banner-inner{width: 940px;
+                              height: 348px;
+                              margin: 0 auto;
+                              position:relative;}
+                              /*与pic做定位*/
+        .banner h2{color:#fff;
+                   font-family: "宋体";
+                   font-size: 28px;
+                   font-weight: lighter;
+                   padding-top:59px;}
+        .banner p{color:#7f7f7f;
+                  line-height: 25px;
+                  font-size: 14px;
+                  margin-top: 17px;}
+        .banner p a{color:#cb2800;
+                   text-decoration: underline;}
+        .banner .more{
+            display:block;
+            width: 106px;
+            height: 40px;
+            background-image: url( images/index_05.jpg);
+            border-radius: 5px;
+            font-size:20px;
+            line-height: 40px;
+            text-align: center;
+            color:#fff;
+            margin-top: 22px;
+        }
+        .banner .more:hover{background-image:none;
+                            background-color: #cc2800;}
+        .banner .pic{position:absolute;
+                 right:-25px;
+                 top:-40px;}
+                 /*与inner做定位*/
+
+
+        section{width: 100%;
+                height: 856px;
+                background-image: url( images/index_13.jpg);
+                background-repeat: repeat-x;
+                padding-top: 40px;
+                }
+        .main-inner{width: 940px;
+                    margin:0 auto;
+                 }
+        .main-up{width: 940px;
+                 margin:0 auto;
+                 }
+        .main-up-left {width: 300px;
+                       height: 180px;
+                       background-image: url( images/banner-1.png);
+                       float: left;}
+        .main-up-mid {width: 300px;
+                      height: 180px;
+                      background-image: url( images/banner-2.png);
+                      float: left;
+                      margin-left: 20px;
+                      margin-right: 20px;}
+        .main-up-right {width: 300px;
+                        height: 180px;
+                        background-image: url( images/banner-3.png);
+                        float: left;}
+        .main-up a{
+            display:block;
+            width: 86px;
+            height: 31px;
+            background-image: url( images/index_03.jpg);
+            border-radius: 5px;
+            font-size:18px;
+            line-height: 31px;
+            text-align: center;
+            color:#5f6e10;
+            border:3px solid #fff;
+            margin-top: 113px;
+            margin-left: 20px;
+        }
+        .main-left{width: 640px;
+                   height: 636px;
+                   padding-top: 40px;
+                   float: left;
+
+                   }
+        .main-left-up{width: 640px;
+                      height: 312px;
+                      border-bottom: 1px dotted #3c3d3d;}
+
+        .main-left h2{color:#fff;
+                   font-family: "宋体";
+                   font-size: 28px;
+                   font-weight: lighter;}
+        .main-left .date{width: 60px;
+                         height: 60px;
+                         background-image: url( images/index_07.jpg);
+                         background-repeat: repeat-x;
+                         border-radius: 5px;
+                         position:relative;
+                         margin-top: 16px;
+                         float: left;}
+        .main-left .date span{font-size: 12px;
+                               color:#fff;
+                               position: absolute;
+                               right:8px;
+                               top:-2px;
+                               }
+        .main-left .date p{font-size:40px ;
+                           font-weight: bold;
+                           position: absolute;
+                           right:8px;
+                           top: 12px;}
+        .main-left .more{
+            display:block;
+            width: 106px;
+            height: 40px;
+            background-image: url( images/index_05.jpg);
+            border-radius: 5px;
+            font-size:20px;
+            line-height: 40px;
+            text-align: center;
+            color:#fff;
+            margin-top: 20px;
+        }
+        .main-left .more:hover{background-image:none;
+                            background-color: #cc2800;}
+        .main-left .word{float: left;
+                         margin-top: 16px;
+                         margin-left: 22px;}
+        .main-left .word p{color:#7f7f7f;
+                           font-size: 14px;
+                           line-height: 25px;}
+        .main-left .word p span{color:#fff;}
+        .main-left-down{padding-top: 14px;}
+        .main-left-down .pic{width: 220px;
+                              float: left;
+                              margin-top: 16px;
+                              margin-left: 22px;}
+
+        .main-right{width: 300px;
+                   height: 636px;
+                   padding-top: 40px;
+                   float: left;}
+
+        .main-right-up ul li a {color:#fff;
+                             font-size: 14px;
+                             background-image: url( images/2323232323232_07.jpg);
+                             background-repeat: no-repeat;
+                             background-position: 0px center;
+                            padding-left: 9px;}
+        .main-right-up ul li a:hover{color:#cb2800;
+                                  background-image: url( images/963852741.png);
+                          background-repeat: no-repeat;
+                          background-position: 0 center;}
+        .main-right-up{width: 300px;
+                       height: 313px;}
+        .main-right-up h3{color:#fff;
+                          font-family: "宋体";
+                          font-size: 24px;
+                          font-weight: lighter;width: 278px;
+                          height:48px;
+                          background-image: url( images/bggggg.jpg);
+                          background-repeat: repeat-x;
+                          line-height: 48px;
+                          border-radius: 5px;
+                          padding-left: 22px;}
+        .main-right-up li{width: 270px;
+                          height:34px;
+                          line-height: 34px;
+                          border-bottom: 1px dotted #3c3d3d;}
+        .main-right-up ul{float: right;
+                          margin-top: 20px;}
+
+
+
+        .main-right-down{width: 280px;
+                         height: 212px;
+                         background-image: url( images/index_27.jpg);
+                         background-repeat: repeat-x;
+                         border-radius: 5px;
+                         margin-top: 28px;
+                         padding-top: 20px;
+                         padding-left: 20px;}
+        .main-right-down img{margin-top: 15px;}
+        .main-right-down p{margin-top: 10px;
+                           color:#7f7f7f;
+                           line-height: 25px;
+                           font-size: 14px;}
+        .main-right-down p span{color:#fff;
+                              font-weight: bold;}
+
+        footer{width: 100%;
+               height: 124px;
+               background-image: url( images/index_41.jpg);
+               background-repeat: repeat-x;}
+        footer p {color:#7f7f7f;}
+        footer p a {color:#cb2800;}
+        footer .footer-inner{width: 940px;
+                             height: 124px;
+                             margin:0 auto;
+                 }
+        .footer-inner-left {width: 640px;
+                            height: 94px;
+                            float: left;
+                            text-align: center;
+                             padding-top: 30px;
+                            line-height: 25px;}
+        .footer-inner-right{float: right;}
+
+
+
+
+
+
+
+
+
+
+        </style>
+    </head>
+    <body>
+     <header>
+         <div class="top">
+             <div class="top-inner">
+                 <div class="logo">
+                     <h1>
+                      <a href="#"></a>
+                     </h1>
+                 </div>
+                 <nav>
+                     <ul>
+                         <li><a href="#">About</a></li>
+                         <li><a href="#">Foundation</a></li>
+                         <li><a href="#">Program</a></li>
+                         <li><a href="#">Leaders</a></li>
+                         <li><a href="#">Gallery</a></li>
+                         <li><a href="#">Contacts</a></li>
+                     </ul>
+                 </nav>
+             </div>
+         </div>
+         <div class="banner">
+             <div class="banner-inner">
+                 <h2>Welcome to Eagles Boy Scout Troops!</h2>
+                 <p>Eagles is one of <a href="#">free web templates</a> created by TemplateMonster. com team. It is optimized for<br />1280X1024 resolution. This <a href="#">Eagles Template</a> goes with two packages-with PSD source files <br /> and without them. PSD files are available for the registered members of Template Monster. <br />The basic package (without PSD source) is available for anyone without registration.
+                 </p>
+                 <a  class="more" href="#">more</a>
+                 <div class="pic"><img src="images/page1-img1.png" alt="" /></div>
+             </div>
+
+         </div>
+     </header>
+
+
+
+     <section>
+      <div class="main-inner">
+       <div class="main-up">
+           <ul>
+               <li class="main-up-left"><a href="#">more</a></li>
+               <li class="main-up-mid"><a href="#">more</a></li>
+               <li class="main-up-right"><a href="#">more</a></li>
+           </ul>
+       </div>
+       <div class="main-left">
+          <div class="main-left-up">
+           <h2>Next Event</h2>
+           <div class="date">
+             <span>Tuesday</span>
+             <p>31</p>
+           </div>
+           <div class="word">
+             <p><span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</span> sed diam nonumy eirmod <br /> tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero <br /> eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea <br />takimata sanctus ipsum dolor sit amet. <br /><br />Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet <br /> lorem ipsum dolor sit amet.
+             </p>
+             <a  class="more" href="#">more</a>
+           </div>
+          </div>
+          <div class="main-left-down">
+            <div class="date">
+             <span>Monday</span>
+             <p>23</p>
+            </div>
+            <div class="pic">
+                <img src="images/520.jpg" alt="" />
+                <a  class="more" href="#">more</a>
+            </div>
+            <div class="word"><p><span>Stet clita kasd gubergren</span>, no sea takimata <br /> sanctus est Lorem ipsum dolor sit amet lorem <br />ipsum dolor sit amet, sed diam voluptua. At <br /> vero eos et accusam et justo duo dolores et ea <br /> rebum. Stet clita kasd gubergren, no sea <br /> takimata sanctus est Lorem ipsum dolor sit <br /> amet.</p></div>
+          </div>
+       </div>
+       <div class="main-right">
+          <div class="main-right-up">
+              <h3>Our Adventures</h3>
+              <ul>
+                  <li><a href="#">
+                      <em>Lorem ipsum dolor sit amet</em>
+                  </a></li>
+                  <li><a href="#">
+                      <em>Consetetur sadipscing elitr sed diam</em>
+                  </a></li>
+                  <li><a href="#">
+                      <em>Nonumy eirmod tempor invidunt ut</em>
+                  </a></li>
+                  <li><a href="#">
+                      <em>Labore et dolore magna</em>
+                  </a></li>
+                  <li><a href="#">
+                      <em>Aliquyam erat sed diam voluptua</em>
+                  </a></li>
+                  <li><a href="#">
+                      <em>Vero eos et accusam et justo duo</em>
+                  </a></li>
+                  <li><a href="#">
+                      <em>Stet clita kasd gubergren</em>
+                  </a></li>
+              </ul>
+          </div>
+          <div class="main-right-down">
+              <h3>Troop#345Meetings</h3>
+              <img src="images/index_26.jpg" alt="" />
+              <p><span>Monday 9:00 - 12:00</span><br />Lorem ipsum dolor sit amet, consetetur <br />sadipscing elitr sed diam nonumy.</p>
+          </div>
+
+       </div>
+      </div>
+     </section>
+     <footer>
+        <div class="footer-inner">
+          <div class="footer-inner-left">
+            <p><span>Eagles Troops @ 2012</span><br /><a href="#">Website Template</a> by TemplateMonster.com</p>
+          </div>
+          <div class="footer-inner-right"><img src="images/index_43.jpg" alt="" />
+          </div>
+         </div>
+     </footer>
+    </body>
+</html>

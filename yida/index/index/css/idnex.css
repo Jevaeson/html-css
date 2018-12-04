@@ -1,0 +1,48 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+q:before,q:after{content:'';}
+fieldset,img,abbr,acronym{border:0;}
+
+/* basic */
+.c:before,.c:after{content:"";display:table;}
+.c:after{clear:both;}
+.c{zoom:1;}
+body {font:12px/1.5 tahoma,\5b8b\4f53,sans-serif;}
+a {text-decoration:none;overflow:hidden;}
+a:hover {text-decoration:underline;}
+.container {width:1000px;margin:0 auto;}
+.hide {display:block;width:0;height:0;overflow:hidden;}
+.pr {position:relative;}
+.pa {position:absolute;}
+.db {display:block;text-indent:-999em;}
+.fl{float: left;}
+.last1{margin-right: 0 !important;}
+
+.bg{background: url(../img/gb.jpg) no-repeat 50% 0;height: 1080px;}
+.time{font-size: 17px;color: #4d4d4d;top: 110px;right: 295px;}
+.time1{font-size: 54px;color: #9a030c;top: 90px;font-weight: bold;right: 130px;}
+.fuwu{top: 200px;left: 440px;}
+
+.zyz{background: url(../img/zyz.jpg) no-repeat;width: 303px;height: 145px;padding:105px 0 0 225px;margin-right: 20px;}
+.p-zyz{color: #ffffff;font-size: 14px;width: 285px;}
+.tq{background: url(../img/tq.jpg) no-repeat;width: 250px;height: 158px;margin: 15px 0 25px 0;}
+.rexian{font-size: 22px;color: #e43e40;}
+.box{width: 800px;}
+
+.lianjie1{top: 200px;width: 304px;left: 120px;}
+.a1{display: block;margin-bottom: 20px;}
+.lianjie2{top:200px;left: 1286px;width: 512px;}
+.a2{margin:0 20px 20px 0;display: block;}
+
+
+.p-guan{font-size: 18px;color: #ffffff;width: 732px;padding-left: 20px;text-indent: 36px;}
+.fwjj{margin-bottom: 23px;}
+.p-jianjie{font-size: 28px;color: #ffffff;margin-right: 540px;}
+.fengjing{margin-bottom: 15px;background: url(../img/fengjing.jpg) no-repeat;height: 145px;width: 820px;padding: 375px 35px 0 35px;}
+.a-dianji{display: block;background: url(../img/aaa.png) no-repeat;width: 32px;height: 32px;margin-top: 5px;}
+
+

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>akm官网</title>
+        <style type="text/css">
+        *{border: 0;padding: 0;margin: 0;}
+        a{text-decoration: none;}
+        li{list-style:none;}
+        header{width:100%;}
+        .top{width: 1153px;
+             margin:0 auto;
+             background-color: #fff;
+             overflow: hidden;}
+             /*浮动元素不占位置，父级盒子撑不起来高度，可以给父级元素添加overflow: hidden*/
+
+
+
+
+        .top .logo{width: 185px;
+                  height: 105px;
+                  float: left;}
+        .top .logo h1{ padding-top: 30px;
+                       width: 136px;
+                       height: 50px;
+                       text-indent: -9999px;}
+        .top .logo h1 a{ display: block;
+                         width: 136px;
+                         height: 50px;
+                         background-image: url( images/aokema01_03.jpg);}
+        nav{width: 702px;
+            height: 105px;
+            float: left;}
+        nav ul{width: 702px;
+               height: 105px;}
+        nav ul li{width: 115px;
+                  height: 105px;
+                  float: left;
+                  border-left: 2px solid #ececec;}
+        nav ul .rc{border-left: 1px solid #ececec;
+                   border-right: 1px solid #ececec;}
+        nav ul li a{ display: block;
+                     font-size: 16px;
+                     color:#0086c5;
+                     width: 115px;
+                     height: 105px;
+                     text-align: center;
+                     line-height: 105px;
+                     }
+        nav ul li a:hover{color:#666666;
+                          background-image: url( images/a_bg_02.jpg);}
+        .search{float: right;
+               margin-top: 43px;}
+
+
+
+
+        .banner{width: 100%;
+                border-top: 3px solid #0e4668;}
+        .banner img{width: 100%;
+                    display: block;
+                    /*去掉 img 默认边距*/
+                    }
+
+        .main{width: 100%;
+                background-image: url( images/bg.jpg);
+                background-repeat: repeat-x;
+                height: 343px;
+                }
+        .main-inner{width: 1153px;
+                    margin:0 auto;
+                    padding-top: 26px;}
+        .main-left{width: 435px;
+                   height: 317px;
+                   float: left;}
+        .main-left h2,.main-mid h2{font-size:16px;
+                                   color:#555;
+                                   margin-bottom: 25px;}
+        .main-left h3{font-size:14px;
+                      color:#555;
+                      margin-bottom: 12px;}
+        .info img{float: left;
+                  margin-right: 20px;}
+        .info .word a{font-size:14px;
+                      color:#1d679a;}
+        .info .word a span{letter-spacing: -4px;}
+        .info .word p a{font-size:14px;
+                      color:#555555;
+                      line-height: 22px;}
+        .info .word p a:hover{color:#1d679a;}
+        .wtf{clear: both;
+             margin-top: 57px;}
+             /*清除浮动*/
+
+
+
+
+        .main-mid{width: 470px;
+                  height: 317px;
+                  float: left;}
+        .main-mid .up{width: 382px;
+                      height: 90px;
+                      border-bottom: 1px dashed #ccc;}
+        .main-mid .down{width: 382px;
+                      height: 74px;
+                      border-top: 1px dashed #ccc;
+                      padding-top: 16px;}
+        .main-mid h3{font-size:14px;
+                      color:#076aad;
+                      margin-bottom: 10px;
+                      background-image: url( images/aokema01_15.jpg);
+                      background-repeat: no-repeat;
+                      background-position: 0 center;
+                      padding-left: 11px;}
+        .main-mid p a{font-size:14px;
+                      color:#666666;
+                      line-height: 25px;}
+        .main-mid p a:hover{color:#076aad;}
+        .main-mid span{font-size:14px;
+                      color:#959494;
+                      margin-left: 20px;}
+        .main-mid .down span{font-size:14px;
+                             color:#959494;
+                             margin-left: 34px;}
+        .main-mid .more{margin-top: 30px;}
+        .main-mid .more a{font-size: 14px;
+                          color:#076aad;
+                          margin-left: 10px;}
+        .main-mid .more a span{letter-spacing: -4px;
+                               margin-left: 0;
+                               color:#076aad;}
+
+
+
+
+        .main-right{width: 247px;
+                    height: 317px;
+                    float: right;}
+
+
+
+
+
+        footer{width:100%;
+               height: 38px;
+               border-top: 3px solid #ececec;}
+        footer .footer-content{width: 1153px;
+                               margin:0 auto;}
+        footer ul{width: 310px;
+                  float: left;
+                  margin-left: -14px;}
+        footer ul li {float: left;
+                      line-height: 38px;
+                      margin-left: 14px;
+                       color:#c5c5c5;}
+        footer ul li a{font-size: 12px;
+                       color:#c5c5c5;}
+        footer .copyright{width: 293px;
+                          float: right;
+                          line-height: 38px;}
+        footer .copyright p{font-size:12px;
+                            color:#c5c5c5;}
+
+
+
+
+
+
+
+        </style>
+    </head>
+    <body>
+      <header>
+          <div class="top">
+              <div class="logo">
+                  <h1>
+                      <a href="#">澳柯玛</a>
+                  </h1>
+              </div>
+              <nav><ul><li><a href="#">首页</a></li>
+              <li><a href="#">产品中心</a></li>
+              <li><a href="#">关于澳柯玛</a></li>
+              <li><a href="#">购物支持</a></li>
+              <li><a href="#">活动中心</a></li>
+              <li class="rc"><a href="#">人才招聘</a></li></ul>
+              </nav>
+              <div class="search"><img src="images/aokema01_000_03.jpg" alt="" /></div>
+          </div>
+          <div class="banner"><img src="images/aokema01_08.jpg" alt="" /></div>
+      </header>
+      <div class="main">
+          <div class="main-inner">
+              <div class="main-left">
+                  <h2>集团简介</h2>
+                  <div class="info">
+                      <h3>澳柯玛股份有限公司</h3>
+                      <img src="images/3123123123_15.jpg" alt="" />
+                      <div class="word">
+                          <p><a href="#">澳柯玛是全球知名的制冷装备供应商，<br />是全球制冷家电、环保电动车和生活<br />家电领先制造商之一...</a></p>
+                          <a href="#">MORE<span>>></span></a>
+                      </div>
+                  </div>
+                  <div class="wtf"><img src="images/aokema01_19.jpg" alt="" /></div>
+              </div>
+              <div class="main-mid">
+                  <h2>新闻中心</h2>
+                  <div class="up">
+                      <h3>澳柯玛两项最新冰箱技术达到国际先进水平<span>2012-08-21</span></h3>
+                      <p><a href="#">由中国轻工业联合会组织并主持召开了澳柯玛完成的“云智能<br />WiFi物联技术在冰箱产品上的应用”...</a></p>
+                  </div>
+                  <div class="down">
+                      <h3>澳柯玛电动车牵手宋庆龄基金会濮阳助学<span>2012-08-21</span></h3>
+                      <p><a href="#">澳柯玛电动车牵手宋庆龄基金会在河南濮阳开展了“全城换购·<br />情系濮阳”的大型公益捐资助学活动...</a></p>
+                  </div>
+                  <div class="more"><a href="#">查看更多<span>>></span></a></div>
+              </div>
+              <div class="main-right"><img src="images/4444_12.jpg" alt="" /></div>
+          </div>
+      </div>
+      <footer>
+        <div class="footer-content">
+          <div class="list"><ul>
+              <li ><a href="#">联系我们</a></li><li>|</li>
+              <li><a href="#">网站地图</a></li><li>|</li>
+              <li><a href="#">法律政策</a></li><li>|</li>
+              <li><a href="#">隐私权限</a></li>
+          </ul></div>
+          <div class="copyright">
+              <p>Copyright © 2010 CHINA澳柯玛 All Right Rsesrved.</p>
+          </div>
+        </div>
+      </footer>
+    </body>
+</html>
